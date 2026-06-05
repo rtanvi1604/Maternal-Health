@@ -1,0 +1,141 @@
+{
+  "name": "maternal-health-sdg-tracker",
+  "title": "Maternal Health Progress Tracker — SDG 3.1",
+  "description": "An end-to-end data analysis and machine learning platform that tracks global maternal health progress toward the UN Sustainable Development Goal 3.1 (MMR < 70 per 100,000 live births by 2030). Built with Python, Scikit-learn, Plotly, and Streamlit.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tanvi R",
+    "email": "",
+    "linkedin": "https://linkedin.com/in/r-tanvi",
+    "github": "https://github.com/rtanvi1604"
+  },
+  "institution": {
+    "name": "Panimalar Engineering College",
+    "department": "Artificial Intelligence and Data Science",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  },
+  "internship": {
+    "program": "IBM Skills Build for University Engagements",
+    "organizer": "Edunet Foundation",
+    "batch": "AICTE-2026",
+    "problem_statement_number": 36,
+    "problem_statement_title": "Tracking Maternal Health Progress Toward SDG 3.1: A Global Data Analysis",
+    "domain": "Healthcare / Data Science"
+  },
+  "sdg_target": {
+    "goal": "SDG 3.1",
+    "description": "Reduce global maternal mortality ratio to less than 70 per 100,000 live births by 2030",
+    "source_dataset": "SDG National Indicator Framework — data.gov.in"
+  },
+  "tech_stack": {
+    "language": "Python 3.10+",
+    "dashboard": "Streamlit",
+    "machine_learning": "Scikit-learn",
+    "visualization": "Plotly",
+    "data_processing": ["Pandas", "NumPy"],
+    "model": "Random Forest Regressor",
+    "cloud": "IBM Cloud Lite",
+    "version_control": "GitHub"
+  },
+  "ml_model": {
+    "algorithm": "Random Forest Regressor",
+    "target_variable": "Maternal_Mortality_Ratio",
+    "features": [
+      "Year",
+      "Antenatal_Care_Coverage",
+      "Skilled_Birth_Attendance",
+      "Adolescent_Birth_Rate",
+      "Health_Expenditure_PCT_GDP",
+      "Region",
+      "Income_Group"
+    ],
+    "performance": {
+      "r2_score": ">0.95",
+      "mean_absolute_error": "<20",
+      "train_test_split": "80/20",
+      "cross_validation": "5-fold"
+    },
+    "baselines_compared": [
+      "Linear Regression",
+      "Ridge Regression",
+      "Gradient Boosting Regressor"
+    ]
+  },
+  "dashboard_pages": [
+    {
+      "page": 1,
+      "title": "Overview Dashboard",
+      "description": "Global MMR trend, KPI cards, income group breakdown, ANC vs MMR scatter plot"
+    },
+    {
+      "page": 2,
+      "title": "Regional Analysis",
+      "description": "Region-wise bar charts, health indicators radar chart, MMR heatmap over years"
+    },
+    {
+      "page": 3,
+      "title": "Trend Explorer",
+      "description": "Country-level multi-indicator comparison and correlation heatmap"
+    },
+    {
+      "page": 4,
+      "title": "ML Predictor",
+      "description": "Interactive form to predict MMR using trained Random Forest model"
+    },
+    {
+      "page": 5,
+      "title": "Key Insights",
+      "description": "Data-driven policy recommendations, SDG progress gauge, achievement summary"
+    }
+  ],
+  "dataset": {
+    "name": "SDG Maternal Health Dataset",
+    "file": "data/sdg_maternal.csv",
+    "countries": 40,
+    "year_range": "2000-2023",
+    "total_records": 960,
+    "features": [
+      "Country",
+      "Year",
+      "Region",
+      "Income_Group",
+      "Maternal_Mortality_Ratio",
+      "Antenatal_Care_Coverage",
+      "Skilled_Birth_Attendance",
+      "Adolescent_Birth_Rate",
+      "Health_Expenditure_PCT_GDP"
+    ],
+    "source_url": "https://www.data.gov.in/resource/sustainable-development-goals-national-indicator-framework-version-31-2021"
+  },
+  "project_files": {
+    "app": "app.py",
+    "analysis": "analysis.py",
+    "data_generator": "generate_data.py",
+    "dataset": "data/sdg_maternal.csv",
+    "trained_model": "models/model.pkl",
+    "dependencies": "requirements.txt",
+    "documentation": "README.md",
+    "presentation": "ibm_internship_filled.pptx"
+  },
+  "how_to_run": {
+    "step_1": "pip install -r requirements.txt",
+    "step_2": "python generate_data.py",
+    "step_3": "python analysis.py",
+    "step_4": "streamlit run app.py"
+  },
+  "key_findings": [
+    "Global MMR reduced by ~45% from 2000 to 2023, but progress is highly uneven",
+    "Skilled Birth Attendance is the strongest ML predictor of lower maternal mortality",
+    "Countries with ANC coverage above 85% consistently achieve lower MMR",
+    "Sub-Saharan Africa shows the highest average MMR across all years",
+    "Adolescent Birth Rate remains a significant risk factor for elevated MMR",
+    "Random Forest outperforms all baselines with R2 above 0.95"
+  ],
+  "future_scope": [
+    "Real-time WHO / UNICEF / World Bank API integration for live data updates",
+    "ARIMA / LSTM time-series forecasting of MMR trends to 2030",
+    "Country-specific NLP-powered policy recommendation engine"
+  ]
+}
