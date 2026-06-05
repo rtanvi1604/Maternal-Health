@@ -104,6 +104,40 @@ streamlit run app.py
 
 ---
 
+## 📸 Application Snapshots
+
+### Maternal Health - Home Page
+![Dashboard_1](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Overview_Dashboard_1.png)
+
+![Dashboard_2](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Overview_Dashboard_2.png)
+
+### Regional Analysis
+![Region_1](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Regional_Analyis_1.png)
+
+![Region_2](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Regional_Analysis_2.png)
+
+### Trend Explorer
+![Trends_1](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Trend_Explorer_1.png)
+
+![Trends_2](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Trend_Explorer_2.png)
+
+### Machine Learning Predictor
+![ML_1](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/ML_Predictor_1.png)
+
+![ML_2](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/ML_Predictor_2.png)
+
+### Key Insights
+![Insight_1](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Key_Insights_1.png)
+
+### Policy Recommendations
+![Policy](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Policy_Recommendations.png)
+
+### Overall Progress
+![Progress](https://github.com/rtanvi1604/Maternal-Health/blob/main/Prototype%20Snapshots/Overall_Progres.png)
+
+
+---
+
 ## 📋 Policy Recommendations
 
 1. Scale skilled birth attendant programs in high-burden regions
